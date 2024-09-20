@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+</head>
+<body>
+    <h1>Form Pendaftaran Les</h1>
+
+    <form action="#">
+        <label>Nama Lengkap</label>
+        <br>
+        <input type="text" name="nama" placeholder="Masukkan nama anda !" required>
+
+        <br>
+        <label>Tanggal Lahir</label>
+        <br>
+        <input type="date" name="tanggal_lahir">
+
+        <br>
+        <label>Nomor Telepon</label>
+        <br>
+        <input type="number" name="no_telp">
+
+        <br>
+        <label>Email</label>
+        <br>
+        <input type="email" name="email">
+
+        <br>
+        <label>Password</label>
+        <br>
+        <input type="password" name="password">
+
+        <br>
+        <label>Jenis Kelamin</label>
+        <br>
+        <select name="jenis_kelamin">
+            <option value="">Pilih Jenis Kelamin</option>
+            <option value="laki_laki">Laki Laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select>
+
+        <br>
+        <label>Jenis Les</label>
+        <br>
+        <input type="radio" name="jenis_les" value="renang">
+        <label>Renang</label>
+        <input type="radio" name="jenis_les" value="korea">
+        <label>Bahasa Korea</label>
+
+        <br>
+        <label>Alamat</label>
+        <br>
+        <textarea name="alamat" rows="10" cols="30"></textarea>
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
